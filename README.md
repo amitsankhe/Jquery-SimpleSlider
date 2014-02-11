@@ -19,7 +19,7 @@ yandex
 
 How to use:
 
-Link Files: 
+
 Include jQuery, js/Am2_SimpleSlider.js and stylesheet css/SimpleSlider.css
 
 Make sure you also add the jQuery library.
