@@ -36,7 +36,7 @@
             $('.product-popup-content .product-image img').animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
             $('.product-popup-content .product-image img').clearQueue();
           
-            console.log($('.product-popup-content .product-image img'));
+            
             $('.product-popup-content .product-information p').text($NewCurrent.find('div').attr('data-desc'));
             if ($PreviousElm.length === 0) { $('.nav-btn.prev').css({ 'display': 'none' }); }
             else { $('.nav-btn.prev').css({ 'display': 'block' }); }
