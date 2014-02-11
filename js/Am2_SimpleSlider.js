@@ -33,8 +33,8 @@
             $NewCurrent = $nextElm;
             $PreviousElm = $NewCurrent.prev();
             $nextElm = $NewCurrent.next();
-            $('.product-popup-content .product-image img').animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
-            $('.product-popup-content .product-image img').clearQueue();
+            $('.product-popup-content .product-image img').clearQueue().animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
+          
           
             
             $('.product-popup-content .product-information p').text($NewCurrent.find('div').attr('data-desc'));
@@ -48,8 +48,8 @@
             $NewCurrent = $PreviousElm;
             $PreviousElm = $NewCurrent.prev();
             $nextElm = $NewCurrent.next();
-            $('.product-popup-content .product-image img').animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
-            $('.product-popup-content .product-image img').clearQueue();
+            $('.product-popup-content .product-image img').clearQueue().animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
+            
             $('.product-popup-content .product-information p').text($NewCurrent.find('div').attr('data-desc'));
             if ($PreviousElm.length === 0) { $('.nav-btn.prev').css({ 'display': 'none' }); }
             else { $('.nav-btn.prev').css({ 'display': 'block' }); }
@@ -78,8 +78,8 @@
                 $NewCurrent = $nextElm;
                 $PreviousElm = $NewCurrent.prev();
                 $nextElm = $NewCurrent.next();
-                $('.product-popup-content .product-image img').animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
-                $('.product-popup-content .product-image img').clearQueue();
+                $('.product-popup-content .product-image img').clearQueue().animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
+                
                 $('.product-popup-content .product-information p').text($NewCurrent.find('div').attr('data-desc'));
                 if ($PreviousElm.length === 0) { $('.nav-btn.prev').css({ 'display': 'none' }); }
                 else { $('.nav-btn.prev').css({ 'display': 'block' }); }
@@ -94,8 +94,8 @@
                 $NewCurrent = $PreviousElm;
                 $PreviousElm = $NewCurrent.prev();
                 $nextElm = $NewCurrent.next();
-                $('.product-popup-content .product-image img').animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
-                $('.product-popup-content .product-image img').clearQueue();
+                $('.product-popup-content .product-image img').clearQueue().animate({ opacity: '0' }, 0).attr('src', $NewCurrent.find('img').attr('src')).animate({ opacity: '1' }, 500);
+        
                 $('.product-popup-content .product-information p').text($NewCurrent.find('div').attr('data-desc'));
                 if ($PreviousElm.length === 0) { $('.nav-btn.prev').css({ 'display': 'none' }); }
                 else { $('.nav-btn.prev').css({ 'display': 'block' }); }
