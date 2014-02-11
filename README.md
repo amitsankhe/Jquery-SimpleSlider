@@ -1,7 +1,7 @@
 SimpleSlider
 ===============
 
-SimpleSlider is an Jquery-based Gallery.This gallery is specially design for product based websites.Gallery can display images, dives i.e. image and its description.
+SimpleSlider is a Jquery-based Gallery.This gallery is specially design for product based websites.Gallery can display images, dives i.e. image and its description.
 
 
 Compatibility:
@@ -31,7 +31,7 @@ Gallery section is appended directly from js file.
 
 'gallery-img' class is selecter of this gallery which should be the class of 'li' or 'div'.
 This li or div must contain image and description of that image.
-Description must be included inside div as an value of attribute 'data-desc'.
+Description must be included inside div as a value of attribute 'data-desc'.
 
 This format should be keep as it is, as SimpleSlider will work with this format only.
 If you want to modify description section of image, you can happily do it by changing data-desc value as you need.
